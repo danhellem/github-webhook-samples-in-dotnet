@@ -1,4 +1,4 @@
-# ecosystem-danhellem-webhook-part-1
+# GitHub Webhook Sample
 
 This is a simple web hook reciever endpoint. The endpoint looks for the "milestone" event from GitHub. If the milestone is set to close but has open issues, the reciever will update those issues with a "Needs Attention!" tag. 
 
